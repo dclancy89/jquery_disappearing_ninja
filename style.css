@@ -1,0 +1,38 @@
+body {
+	background-color: green;
+	font-family: Arial;
+}
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	
+}
+
+h1 {
+	text-align: center;
+}
+
+.ninja {
+	margin:10px;
+	width: 226px;
+	height: 226px;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.ninja img {
+	width: 100%;
+}
+
+.button {
+	background-color: #008FC0;
+	display: inline-block;
+	padding: 8px 14px;
+	margin-left: 10px;
+	transition: opacity 0.2s ease 0s;
+	cursor: pointer;
+}
+
+.button:hover {
+	opacity: 0.7;
+}
